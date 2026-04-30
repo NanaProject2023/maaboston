@@ -1,10 +1,20 @@
+/* CONTAINER-WRAPPER */
+.container-wrapper {
+
+  background-color: #060242fd;
+  margin-top: 20px;
+}
+
+
+
+
 /* CONTAINER */
 .weather-container {
   width: 100%;
   height: 480px;
   max-width: 500px;
-  margin: 100px auto;
-  background: url("/assets/boston22.jpg") no-repeat center center/cover ;
+  margin: 30px auto;
+  background: url("/assets/boston55.jpg") no-repeat center center/contain ;
   
   color: white;
   border-radius: 20px;

@@ -41,6 +41,7 @@ function Weather() {
   }, []);
 
 return (
+  <div className="container-wrapper">
   <div className="weather-container">
 
     
@@ -53,6 +54,7 @@ return (
         <p>{weatherInfo.time}</p>
       </div>
     )}
+  </div>
   </div>
 );
 }

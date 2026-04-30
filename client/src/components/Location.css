@@ -1,13 +1,18 @@
 .location-container {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 480px;
+  margin-left: auto;
   padding: 20px;
   text-align: center;
   
 }
+.location-container-wrapper {
+  background:url("/assets/boston77.jpg") no-repeat center center/cover;  
+
+  margin-top: 20px;
+}
 .location-container h2{
-  color: #0281f7b9;
+  color: #e37202de;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
   font-size: 30px; 
 

@@ -83,6 +83,7 @@ function Location() {
     : [42.3601, -71.0589];
 
   return (
+    <div className="location-container-wrapper">
     <div className="location-container">
       <h2>Find Cafes, Libraries, and Restaurants </h2>
 
@@ -127,6 +128,7 @@ function Location() {
 
 
 
+    </div>
     </div>
   );
 }

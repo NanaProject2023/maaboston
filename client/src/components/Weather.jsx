@@ -43,9 +43,7 @@ function Weather() {
 return (
   <div className="weather-container">
 
-    <button className="weather-btn" onClick={getWeather}>
-      Refresh Weather
-    </button>
+    
 
     {weatherInfo && (
       <div className="weather-info">
